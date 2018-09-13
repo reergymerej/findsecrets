@@ -4,7 +4,7 @@
   "description": "Prevent pushing secrets to the repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "bin": {
     "findsecrets": "./index.js"
@@ -13,5 +13,7 @@
   "author": "Alberto Gimeno <gimenete@gimenete.net>",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
